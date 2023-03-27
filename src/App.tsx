@@ -1,8 +1,15 @@
+import { Route, Routes } from "react-router-dom"
+import Login from "./views/login";
+import Layout from "./layout";
+
 
 const App = () => {
     return (
         <>
-           <h1>最开始</h1>
+            <Routes>
+                <Route path={"/"} element={<Layout />} />
+                <Route path={"/login"} element={<Login />} />
+            </Routes>
         </>
     )
 }
