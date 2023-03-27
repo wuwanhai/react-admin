@@ -7,9 +7,11 @@ const contentStyle: React.CSSProperties = {
     textAlign: 'center',
     minHeight: 120,
     lineHeight: '120px',
-    height: 700,
-    color: '#fff',
-    backgroundColor: '#108ee9',
+    height: 720,
+    padding: '2%',
+    margin:'1%',
+    color: 'black',
+    backgroundColor: 'white',
 };
 
 const Container = () => {

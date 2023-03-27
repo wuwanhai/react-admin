@@ -11,13 +11,12 @@ const AppLayout: React.FC = () => (
     <Space direction="vertical" style={{ width: '100%' }} size={[0, 48]}>
 
         <Layout>
-
             <Head />
             <Layout>
                 <Lside />
                 <Container />
             </Layout>
-           <Foot />
+           {/*<Foot />*/}
         </Layout>
     </Space>
 );
