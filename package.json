@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/pro-components": "^2.4.4",
     "@reduxjs/toolkit": "^1.9.3",
     "antd": "^5.3.2",
     "lodash": "^4.17.21",
