@@ -70,6 +70,7 @@ const Head = () => {
             <div style={headerContainer}>
                 <div style={headerContainerLogo}>
                     <FundOutlined />
+                    &nbsp; <span>ChinaPink</span>
                 </div>
                 <div style={headerStyleLogin}>
                     <Dropdown.Button menu={menuProps} placement="bottom" icon={<GithubOutlined />}>

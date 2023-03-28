@@ -30,10 +30,10 @@ const Login = () => {
     return (
         <div style={{ backgroundColor: 'white', height: 'calc(100vh - 48px)', margin: -24 }}>
             <LoginFormPage
-                backgroundImageUrl="https://gw.alipayobjects.com/zos/rmsportal/FfdJeJRQWjEeGTpqgBKj.png"
-                logo="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
-                title="Github"
-                subTitle="全球最大的代码托管平台"
+                backgroundImageUrl="http://up.ipaddesk.com/pic/87/76/8a/87768aef61251dc03c6fe784d7edd7f6.jpg"
+                logo="https://p3.itc.cn/images01/20210123/a2a5997e421d46bb807b205286ecb752.png"
+                title="React_Admin"
+                subTitle="专属管理系统"
                 activityConfig={{
                     style: {
                         boxShadow: '0px 0px 8px rgba(0, 0, 0, 0.2)',
@@ -41,21 +41,6 @@ const Login = () => {
                         borderRadius: 8,
                         backgroundColor: '#1677FF',
                     },
-                    title: '活动标题，可配置图片',
-                    subTitle: '活动介绍说明文字',
-                    action: (
-                        <Button
-                            size="large"
-                            style={{
-                                borderRadius: 20,
-                                background: '#fff',
-                                color: '#1677FF',
-                                width: 120,
-                            }}
-                        >
-                            去看看
-                        </Button>
-                    ),
                 }}
                 actions={
                     <div
